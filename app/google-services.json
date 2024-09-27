@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200748856394",
+    "project_id": "fir-phoneauth1-fb831",
+    "storage_bucket": "fir-phoneauth1-fb831.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200748856394:android:1b5635691a50124dd3e2b3",
+        "android_client_info": {
+          "package_name": "com.example.careproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvDLVYSEjxR8nsx0uoylJFfrhmRX9VovY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

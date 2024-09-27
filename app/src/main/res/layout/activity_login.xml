@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/doctorimage"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/doctor"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/ticketsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="Sign in"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ticketprovide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/black"
+        android:text="Please provide your details"
+        />
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="380dp"
+        android:text="Phone Number"
+        />
+
+    <EditText
+        android:id="@+id/phoneedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_below="@+id/phone"
+        android:ems="50"
+        android:inputType="phone"
+        />
+
+    <TextView
+        android:id="@+id/indian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/phoneedit"
+        android:textColor="@color/black"
+        android:text="*For Indian citizens, use mobile number only"
+        />
+
+    <Button
+        android:id="@+id/btnpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Otp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <EditText
+        android:id="@+id/verifyotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="470dp"
+        android:hint="       OTP"
+        android:ems="5"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify Otp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="230dp"
+        android:enabled="false"
+        />
+
+    <Button
+        android:id="@+id/btnguest"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="600dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue as A guest"
+        android:textColor="#353535"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

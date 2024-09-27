@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/healthnew"
+    tools:context=".GuestLoginInterface">
+
+    <ImageButton
+        android:id="@+id/backguest"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/tempboldpopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login To Book \n\t\tAppointment"
+        android:textStyle="bold"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:textAlignment="center"
+        android:background="#6800BCD4"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Login" />
+
+
+</RelativeLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/healthnew"
+    tools:context=".DateActivity">
+
+
+    <TextView
+        android:id="@+id/textdetailsfromdentist"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/basictext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Appointment"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textdetailsfromdentist"
+        android:textSize="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"
+        android:text="Select Date"
+        />
+
+    <TextView
+        android:id="@+id/texttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="220dp"
+        android:textColor="@color/black"
+        android:text="Select Time"
+        />
+
+    <Button
+        android:id="@+id/btndate"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textdate"
+        android:layout_marginLeft="40dp"
+        android:text="01/01/2024"
+        />
+
+    <Button
+        android:id="@+id/btntime"
+        style="?android:spinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttime"
+        android:layout_marginLeft="220dp"
+        android:text="10:00"
+         />
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"
+        android:text="Name"
+        />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textname"
+        android:hint="Enter Name"
+        android:ems="15"
+        />
+
+    <TextView
+        android:id="@+id/textmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:text="Mobile"
+        />
+
+    <EditText
+        android:id="@+id/editmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textmobile"
+        android:text="+91 "
+        android:inputType="phone"
+        android:ems="15"
+        />
+
+    <TextView
+        android:id="@+id/textgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="20dp"
+        android:text="Gender"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <RadioGroup
+        android:id="@+id/radiomale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="480dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:text="Male"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Female"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnbook"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:background="#D38EFAF0"
+        android:text="BOOK APPOINTMENT"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="10dp"
+        android:background="#D38EFAF0"
+        android:text="My Appointments"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="200dp"
+        android:background="#D38EFAF0"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+
+
+</RelativeLayout>

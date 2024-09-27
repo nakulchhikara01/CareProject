@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareProject"
+        tools:targetApi="31" >
+
+        <activity
+            android:name=".ChatBot"
+            android:exported="false" />
+        <activity
+            android:name=".GuestLoginInterface"
+            android:exported="false" />
+        <activity
+            android:name=".GuestContinueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentDone"
+            android:exported="false" />
+        <activity
+            android:name=".DateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".timedetail"
+            android:exported="false" />
+        <activity
+            android:name=".VeterinaryPhysician"
+            android:exported="false" />
+        <activity
+            android:name=".SportsNutritionist"
+            android:exported="false" />
+        <activity
+            android:name=".ShoulderSpecialist"
+            android:exported="false" />
+        <activity
+            android:name=".PainManagement"
+            android:exported="false" />
+        <activity
+            android:name=".Optician"
+            android:exported="false" />
+        <activity
+            android:name=".HairTransplantSurgeon"
+            android:exported="false" />
+        <activity
+            android:name=".EyeSurgeon"
+            android:exported="false" />
+        <activity
+            android:name=".ENTSurgeon"
+            android:exported="false" />
+        <activity
+            android:name=".ENT"
+            android:exported="false" />
+        <activity
+            android:name=".DentalSurgeon"
+            android:exported="false" />
+        <activity
+            android:name=".Psychologist"
+            android:exported="false" />
+        <activity
+            android:name=".CardiacSurgeon"
+            android:exported="false" />
+        <activity
+            android:name=".AsthmaSpecialist"
+            android:exported="false" />
+        <activity
+            android:name=".Allergist"
+            android:exported="false" />
+        <activity
+            android:name=".Homeopath"
+            android:exported="false" />
+        <activity
+            android:name=".Dietitian"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralPhysician"
+            android:exported="false" />
+        <activity
+            android:name=".Cardiologist"
+            android:exported="false" />
+        <activity
+            android:name=".Ayurveda"
+            android:exported="false" />
+        <activity
+            android:name=".Dentist"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Help"
+            android:exported="false" />
+        <activity
+            android:name=".MyBookings"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".Offers"
+            android:exported="false" />
+        <activity
+            android:name=".Notification"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

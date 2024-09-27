@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/healthnew"
+    tools:context=".GuestActivity">
+
+    <ImageView
+        android:id="@+id/textbooktemp"
+        android:layout_width="420dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/backfull"
+        android:alpha="0.5"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <TextView
+        android:id="@+id/demosimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:textColor="#BF0C0C0C"
+        android:text="BEAT TRAFFIC JAM AND\n\t\t\t\t\t\t\tCLINIC QUEUES."
+        />
+
+    <TextView
+        android:id="@+id/demobold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Online Doctor\n\t\t\t\t\t\tConsultation\nAnywhere,Anytime"
+        android:textStyle="bold"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/splash"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/loginguest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="140dp"
+        android:text="Login" />
+
+    <ImageButton
+        android:id="@+id/guestnotifi"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="290dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/baseline_notifications_active_24" />
+
+    <ImageButton
+        android:id="@+id/guestwhatsapp"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="235dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/whatsapp_icon_logo_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/guestoffers"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="180dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/percentage_round_svgrepo_com" />
+
+
+    <FrameLayout
+        android:id="@+id/frambook2"
+        android:layout_width="96dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="80dp">
+
+        <ImageButton
+            android:id="@+id/bookedtemp"
+            android:layout_width="86dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/appointment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:text="My Appointment's"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frambook3"
+        android:layout_width="96dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="80dp">
+
+        <ImageButton
+            android:id="@+id/guestsupport"
+            android:layout_width="86dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/help" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:text="Support"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/guestappointment"
+        android:layout_marginTop="410dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#D38EFAF0"
+        android:hint="Book Appointment"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/talkto"
+        android:backgroundTint="@color/black" />
+
+</RelativeLayout>
